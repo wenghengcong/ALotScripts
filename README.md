@@ -1,5 +1,5 @@
 # ALotScripts
-针对mac系统的脚本集合。[【English】]()
+针对mac系统的脚本集合。[【English】](https://github.com/wenghengcong/ALotScripts/blob/master/README_EN.md)
 
 
 

@@ -1,5 +1,5 @@
 # ALotScripts
-A lot of scripts for mac.   [【中文】]()
+A lot of scripts for mac.   [【中文】](https://github.com/wenghengcong/ALotScripts)
 
 
 
