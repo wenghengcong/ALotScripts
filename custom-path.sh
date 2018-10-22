@@ -5,7 +5,7 @@ cd "$(dirname "$0")"
 
 rm -R -f ./bin/*
 
-for dir in `find . -type f \( -iname \*.sh -o -iname \*.scpt \)  -mindepth 2`
+for dir in `find . -type f \( -iname \*.sh \)  -mindepth 2`
 do
     ln -s "$dir" ./bin
 done

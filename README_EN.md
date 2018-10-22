@@ -5,9 +5,11 @@ A lot of scripts for mac.   [【中文】](https://github.com/wenghengcong/ALotS
 
 ## Usage
 
+## Shell script
+
 Choose the first or the second way only.
 
-# First Way
+### First Way
 
 Just do below and enjoy it.
 
@@ -25,7 +27,7 @@ $ sh usr-local-bin-path.sh
 2. So you can get script everywhere.
 
 
-# Second Way
+### Second Way
 
 Just do below and enjoy it.
 
@@ -55,3 +57,12 @@ After execute shell,you can find `/etc/paths`:
 /Users/wenghengcong/Github/ALotScripts/bin
 ```
 
+
+
+## Apple script
+
+```bash
+$ osascript **.scpt
+```
+
+Or add `applescript`directory to Alfread serch scope,then search with Alfread and run it.

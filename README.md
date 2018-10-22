@@ -5,9 +5,11 @@
 
 ## 如何使用
 
+## Shell脚本
+
 **方案一、二选其中一个，执行完脚本，就可以调用。**
 
-# 方案一
+### 方案一
 
 执行以下操作，就可以使用脚本了。
 
@@ -28,7 +30,7 @@ $ sh usr-local-bin-path.sh
 
 
 
-# 方案二
+### 方案二
 
 执行以下操作，就可以使用脚本了
 
@@ -53,3 +55,12 @@ $ sh custom-path.sh
 /Users/wenghengcong/Github/ALotScripts/bin
 ```
 
+
+
+## Apple Script
+
+```bash
+$ osascript **.scpt
+```
+
+或者将applescript路径假如到Alfred中，可直接搜索，运行。
