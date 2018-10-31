@@ -18,6 +18,7 @@ do
 #    echo $binpath
     binfile=$PWD${dir:1}
     echo $binfile
+    chmod +x $binfile
     rm -f "$binpath"
 
     #create symbolic link
