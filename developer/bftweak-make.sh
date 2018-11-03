@@ -1,2 +1,2 @@
 #!/bin/bash
-make clean && make package debug=0 && make install
+make clean && make package debug=$1 && make install
