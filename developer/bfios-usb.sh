@@ -35,10 +35,10 @@ function free_port() {
 #\033等同于\e
 #32m绿色
 #34m蓝色
-echo '|\033[34mKill port if port 10010 and 10086 is in use\033[0m                           |'
+echo '|\033[34mKill port if port 10010 and 10086 is in use\033[0m                        |'
 free_port 10010
 free_port 10086
-echo '|-------------------Kill End-----------------------------------|'
+echo '|-------------------Kill End----------------------------------------|'
 echo '\n'
 echo '|------------------\033[34m10010\033[0m--------------------------------------------|'
 echo '|\033[34mport 10010 is used for ssh login iPhone \033[0m                           |'
@@ -54,7 +54,7 @@ echo '|\033[34mport 10086 is used for debugserver in iPhone \033[0m             
 echo '|\033[34mmac lldb use port 9999 connect iPhone debugserver of port 10086 \033[0m   |'
 echo '|---------------------\033[34mdebugserver  Usage \033[0m---------------------------|'
 echo '|\033[32m> 1. In iPhone:  debugserver *:10086 -a [AppName or processid]\033[0m     |'
-echo '|\033[32m> 2. In Mac:     enter lldb\033[0m 										 |'
+echo '|\033[32m> 2. In Mac:     enter lldb \033[0m                                       |'
 echo '|\033[32m> 3. In Mac:     process connect connect://localhost:9999\033[0m          |'
 echo '|-------------------------------------------------------------------|'
 
