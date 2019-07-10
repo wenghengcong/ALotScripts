@@ -5,10 +5,10 @@
 # 2. md file name:   the blog file name.
 
 #your hexo blog directory
-blogPath=/Users/wenghengcong/Desktop/MeSync/blog
+blogPath=/Users/wenghengcong/MyApps/MeSync/blog
 
 #the path you save pengding blogs
-pendingBlogPath=/Users/wenghengcong/Desktop/MeSync/Next_Blog
+pendingBlogPath=/Users/wenghengcong/MyApps/MeSync/Next_Blog
 
 #cd hexo blog home directory
 cd $blogPath
